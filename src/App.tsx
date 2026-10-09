@@ -76,7 +76,7 @@ const STORY = [
 function Logo() {
   return (
     <Link to="/" className="logo" aria-label="DHA Movers & Packers home">
-      <img src="/favicon.svg" width="38" height="38" alt="" />
+      <img src={`${import.meta.env.BASE_URL}favicon.svg`} width="38" height="38" alt="" />
       <span><strong>DHA</strong><b>Movers & Packers</b></span>
     </Link>
   )

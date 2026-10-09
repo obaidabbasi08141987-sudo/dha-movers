@@ -20,6 +20,12 @@ npm run preview
 
 The build script runs the TypeScript check before creating the production bundle.
 
+## GitHub Pages
+
+The `main` branch is deployed to GitHub Pages using the workflow in `.github/workflows/deploy.yml`.
+The website URL is `https://obaidabbasi08141987-sudo.github.io/dha-movers/`.
+Routes use URL hashes so every page continues to work when opened directly on GitHub Pages.
+
 ## Website notes
 
 - The home page follows a nine-part, scroll-driven 3D moving story. Its truck, road, boxes, home, office and packing props are procedural Three.js models.
